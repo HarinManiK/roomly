@@ -2,7 +2,7 @@
 
 Roomly lets students find and reserve campus study rooms with live availability, and lets administrators manage rooms and oversee bookings. It's built on the MERN stack (MongoDB, Express, React, Node.js).
 
-**Live app:** https://roomly-ue3c.onrender.com · **Demo video:** _add link here_
+**Live app:** https://roomly-ue3c.onrender.com · **Demo video:** https://drive.google.com/file/d/1Z34QQiT6lBMb3TwpWSU856tFldLl8dse/view?usp=sharing
 
 > The app runs on Render's free tier. If nobody has used it for 15 minutes, the first request can take about 50 seconds while the server wakes up.
 
