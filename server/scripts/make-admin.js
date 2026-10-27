@@ -8,7 +8,7 @@ if (!email || !process.env.MONGODB_URI) {
   process.exit(1);
 }
 await mongoose.connect(process.env.MONGODB_URI);
-const user = await User.findOneAndUpdate({ email }, { role: 'admin' }, { new: true });
+const user = await User.findOneAndUpdate({ email }, { role: 'admin' }, { returnDocument: 'after' });
 console.log(user ? `${user.email} is now an admin` : `No account found for ${email}. Register it in the app first.`);
 await mongoose.disconnect();
 process.exit(user ? 0 : 1);
