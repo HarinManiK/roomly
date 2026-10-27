@@ -161,8 +161,8 @@ Roomly runs as a **single Render web service** with a **MongoDB Atlas** free clu
    - build: `npm run build` (installs both packages and builds the React app)
    - start: `npm start`
    - health check: `/api/health`
-3. Enter `MONGODB_URI`, `ADMIN_EMAIL` and `ADMIN_PASSWORD` when prompted. `JWT_SECRET` is generated automatically.
-4. Open the `.onrender.com` URL.
+3. Enter `MONGODB_URI` when prompted. `JWT_SECRET` is generated automatically.
+4. Open the `.onrender.com` URL and register an account. To make that account an admin, run `npm run make-admin --prefix server -- you@example.com` locally, with `MONGODB_URI` in `server/.env`. You can also set `ADMIN_EMAIL` and `ADMIN_PASSWORD` on the service.
 
 ## Project Structure
 

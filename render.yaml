@@ -11,10 +11,6 @@ services:
         sync: false
       - key: JWT_SECRET
         generateValue: true
-      - key: ADMIN_EMAIL
-        sync: false
-      - key: ADMIN_PASSWORD
-        sync: false
       - key: APP_TIMEZONE
         value: Asia/Kolkata
       - key: NODE_VERSION

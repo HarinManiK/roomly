@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch --env-file-if-exists=.env src/index.js",
+    "make-admin": "node --env-file-if-exists=.env scripts/make-admin.js",
     "test": "node --test \"test/**/*.test.js\""
   },
   "engines": {
